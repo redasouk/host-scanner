@@ -1,7 +1,7 @@
 try:
   import requests, ssl, socket, sys, os, datetime, platform, time
 
-except ModuleError:
+except:
   print('pip install -r requirements.txt')
 
 ###################### ABOUT AUTHOR ####################
